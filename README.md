@@ -1,23 +1,12 @@
-# crud-rest
+# Crud-REST
 
-# TEMA : Servicio REST
+# Tema : Servicio REST
 
-#PROYECTO JAVA WEB : Web Application
-
-#PAQUETE "Modelo" :  
-
-  - CLASE "Conexion" :   Conexion a la base de datos "mybd", mediante JDBC.
-  
-  - CLASE "usuario" :    Clase entidad, de la tabla "usuario".
-  
-  - CLASE  "usuarioDao" :    Clase de métodos CRUD, ("insertar","modificar",
-           "eliminar", "listar","getbyId").
-           
- #PAQUETE "SerRest" : 
-  
-  - CLASE "ApplicationConfig" :   Se crea por defecto, genera un 
-          ApplicationPath("webresources").
-          
-  - CLASE "UsuarioResource" :   Clase compuesta por los métodos del Servicio 
-          (@POST,@GET,@PUT,@DELETE) y genera un @Path("usuario").
+### Proyecto Java / Web Application
+ - #### Conexion a la base de datos "mybd", mediante JDBC
+ - #### Clase entidad, "usuario" ,de la tabla "usuario"  
+ - #### Clase de métodos CRUD, ("insertar","modificar", "eliminar", "listar","getbyId")
+ - #### "ApplicationConfig", genera un ApplicationPath("webresources")          
+ - #### "UsuarioResource" ,Clase compuesta por los métodos del Servicio 
+   #### (@POST,@GET,@PUT,@DELETE) y genera un @Path("usuario")
 
